@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: auto;
+            width: 100%;
+            height: 100%;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+            background: url('https://learn.alg.academy/uploads/2021/01/logo_0_1611261359.svg') no-repeat 50% 30%;
+            background-size: contain;
+            position: absolute;
+            top: -13px;
+            left: 25px;
+        }
+        .wrap {
+            background-color: rgb(7, 118, 160);
+            width: 100%;
+            height: 100px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+        .logotext {
+            width: 190px;
+            height: 84px;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            text-align: center;
+            font-size: 50px;
+            position: absolute;
+            left: 185px;
+            background-color: rgb(255, 182, 0);
+            border-radius: 7px;
+            font-family: "Montserrat", sans-serif;
+            user-select: none;
+        }
+        .centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+        .title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 55px;
+        }
+        .photos {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 1000px;
+            margin: 20px 0;
+        }
+        .photos img {
+            border-radius: 7px;
+            margin: 30px;
+        }
+        .text {
+            position: relative;
+            top: -8px;
+        }
+        .border {
+            border-style: solid;
+            border-width: 5px;
+            padding: 75px 25px;
+            width: 100%;
+            font-family: "Montserrat", sans-serif;
+            font-size: 55px;
+            white-space: pre-wrap;
+            text-align: center;
+            font-weight: 672;
+            color: black;
+            margin-bottom: 25px;
+        }
+        .block {
+            height: 200px;
+            background-color: rgb(2, 76, 104);
+            width: 100%;
+            color: white;
+            font-family: "Montserrat", sans-serif;
+            font-size: 55px;
+            padding: 50px;
+            white-space: pre-wrap;
+            text-align: center;
+            font-weight: 672;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            font-size: 25px;
+            list-style-image: url("https://learn.alg.academy/uploads/2021/01/Arrow%201_0_1611261359.svg");
+            width: 75%;
+            white-space: nowrap;
+            text-align: left;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class='wrap'>
+        <div class='logo'></div>
+        <div class='logotext'>Photos</div>
+    </div>
+    <div class='centered'>
+        <div class='title'>Шевченки</div>
+        <div class='photos'>
+            <img src='https://learn.alg.academy/uploads/2021/01/happy-family-2284698_1920%201_0_1611261360.png'>
+            <img src='https://learn.alg.academy/uploads/2021/01/children-817368_1920%201_0_1611261360.png'>
+            <img src='https://learn.alg.academy/uploads/2021/01/house-1158139_1920%201_0_1611261360.png'>
+        </div>
+        <h1 style='padding: 20px; font-family: "Montserrat", sans-serif; color: red; text-align: left;'>Ми - сім'я Шевченків😀</h1>
+        <ul>
+            <li><span class="text">Тато Алекс - інженер, архітектор</span></li>
+            <li><span class="text">Мама Наталя - ландшафтний дизайнер, флорист</span></li>
+            <li><span class="text">Діти Джеймс і Альона - фотографи-початківці</span></li>
+            <li><span class="text">Пес Джон - головний у веселій команді</span></li>
+        </ul>
+        <div class='border'>Любимо веселі свята для всієї сім’ї</div>
+        <div class='block'>Я не встиг доробити:(</div>
+    </div>
+</body>
+</html>
